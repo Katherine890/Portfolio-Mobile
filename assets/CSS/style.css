@@ -867,7 +867,7 @@
 	cursor: default;
 	position: relative;
 	bottom: 400px;
-	left: 90px;
+	left: 100px;
 }
 @keyframes animate9 {
 	0% {
@@ -1235,7 +1235,7 @@ p {
 		z-index: 2;
 		width: 200px;
 		position: relative;
-		right: 170px;
+		right: 190px;
 		top: 100px;
 	}
 	.superhero-image {
@@ -1250,29 +1250,29 @@ p {
 	
 	.train {
 		position: absolute;
-		left: 0;
+		right: 315px;
 		top: 700px;
 		font-size: 30px;
 	}
 	#traintime {
 		position: absolute;
-		left: 0;
+		right: 315px;
 		top: 700px;
 		font-size: 30px;
 	}
 	.train-repo {
 		z-index: 2;
 		width: 200px;
-		position: relative;
-		left: 120px;
-		top: 170px;
+		position: absolute;
+		left: 100px;
+		top: 1410px;
 	}
 	.train-image {
 		z-index: 2;
 		width: 200px;
 		height: 410px;
 		position: relative;
-		right: 375px;
+		right: 170px;
 		top: 400px;
 	}
 
@@ -1295,4 +1295,277 @@ p {
 		line-height: 30px;
 	}
 	
+}
+
+@media only screen and (min-width: 768px) {
+	.container {
+		height: auto 0;
+	}
+
+	.intro {
+		position: relative;
+		top: 50px;
+		left: 250px;
+	}
+
+	.W::before {
+		font-size: 70px;
+		line-height: 30px;
+	}
+
+	.E::before {
+		font-size: 70px;
+		position: relative;
+		top: 259px;
+		left: 40px;
+		line-height: 30px;
+	}
+
+	.L::before {
+		font-size: 70px;
+		position: relative;
+		top: 219px;
+		left: 80px;
+		line-height: 30px;
+	}
+
+	.C::before {
+		font-size: 70px;
+		position: relative;
+		top: 178px;
+		left: 120px;
+		line-height: 30px;
+	}
+
+	.O::before {
+		font-size: 70px;
+		position: absolute;
+		top: 301px;
+		left: 160px;
+		line-height: 30px;
+	}
+
+	.M::before {
+		font-size: 70px;
+		position: absolute;
+		top: 301px;
+		left: 200px;
+		line-height: 30px;
+	}
+
+	.E2::before {
+		font-size: 70px;
+		position: absolute;
+		top: 301px;
+		left: 240px;
+		line-height: 30px;
+	}
+
+	#main-heading {
+		font-size: 60px;
+		position: relative;
+		left: 10px;
+		bottom: 170px;
+		margin: 0;
+	}
+
+	.nav-button {
+		position: relative;
+		bottom: 170px;
+		left: 400px;
+
+	}
+
+	.sidenav .closebtn {
+		position: absolute;
+		top: 20px;
+		right: 30px;
+	}
+
+	.subheading, .subheading2 {
+		font-size: 70px;
+	}
+
+	.subheading2 {
+		position: relative;
+		right: 400px;
+	}
+
+	#about-section {
+		width: 700px;
+		position: relative;
+		left: 30px;
+		top: 800px;
+	}
+
+	#portfolio-section {
+		width: 600px;
+		position: relative;
+		left: 450px;
+		top: 1300px;
+	}
+	
+	/* train times */
+	
+	.train {
+		position: absolute;
+		right: 315px;
+		top: 690px;
+		font-size: 30px;
+	}
+	#traintime {
+		position: absolute;
+		right: 315px;
+		top: 690px;
+		font-size: 30px;
+	}
+	.train-repo {
+		z-index: 2;
+		width: 200px;
+		position: absolute;
+		left: 100px;
+		top: 1400px;
+	}
+	.train-image {
+		z-index: 2;
+		width: 200px;
+		height: 410px;
+		position: relative;
+		right: 170px;
+		top: 380px;
+	}
+
+	#contact-section {
+		width: 560px;
+		position: relative;
+		left: 10px;
+		top: 1800px;
+	}
+	
+	input, textarea {
+		width: 560px;
+	}
+	
+	.links {
+		position: relative;
+		top: 1900px;
+		left: 30px;
+		display: inline-block;
+		line-height: 30px;
+	}
+
+}
+
+
+@media only screen and (min-width: 900px) {
+	.container {
+		height: auto 0;
+	}
+
+	.intro {
+		position: relative;
+		top: 50px;
+		left: 300px;
+	}
+
+	.nav-button {
+		position: relative;
+		bottom: 170px;
+		left: 520px;
+	}
+
+	#about-section {
+		width: 800px;
+		position: relative;
+		left: 40px;
+		top: 800px;
+	}
+
+	#portfolio-section {
+		position: relative;
+		left: 450px;
+		top: 1250px;
+	}
+
+	#contact-section {
+		width: 750px;
+		position: relative;
+		left: 30px;
+		top: 1800px;
+	}
+
+	input, textarea {
+		width: 750px;
+	}
+}
+
+@media only screen and (min-width: 980px) {
+	.container {
+		height: auto 0;
+	}
+
+	.intro {
+		position: relative;
+		top: 50px;
+		left: 350px;
+	}
+
+	.nav-button {
+		position: relative;
+		bottom: 170px;
+		left: 610px;
+
+	}
+
+	.crystalgame-section {
+		position: relative;
+		right: 190px;
+	}
+
+	.crystal-repo {
+		position: relative;
+		top: 0px;
+		right: 210px;
+
+	}
+
+	.superhero-section {
+		position: relative;
+		left: 250px;
+		bottom: 620px;
+	}
+
+	.superhero-repo {
+		position: relative;
+		right: 210px;
+		top: 100px;
+	}
+
+	.superhero-image {
+		position: relative;
+		top: 115px;
+	}
+
+	.train {
+		position: absolute;
+		right: 410px;
+		top: 400px;
+		font-size: 30px;
+	}
+	#traintime {
+		position: absolute;
+		right: 410px;
+		top: 400px;
+		font-size: 30px;
+	}
+	.train-repo {
+		position: relative;
+		bottom: 800px;
+		right: 550px;
+	}
+	.train-image {
+		position: relative;
+		bottom: 800px;
+		right: 550px;
+	}
 }
