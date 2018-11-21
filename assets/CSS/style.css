@@ -1504,6 +1504,10 @@ p {
 		height: auto 0;
 	}
 
+	body {
+		height: 4000px;
+	}
+
 	.intro {
 		position: relative;
 		top: 50px;
@@ -1515,6 +1519,10 @@ p {
 		bottom: 170px;
 		left: 610px;
 
+	}
+
+	.change-background2 {
+		height: 1600px;
 	}
 
 	.crystalgame-section {
@@ -1546,26 +1554,205 @@ p {
 		top: 115px;
 	}
 
+	.train-section {
+		position: relative;
+		bottom: 700px;
+		right: 10px;
+	}
+
 	.train {
-		position: absolute;
-		right: 410px;
-		top: 400px;
+		position: relative;
+		left: 50px;
+		top: 0px;
 		font-size: 30px;
 	}
 	#traintime {
-		position: absolute;
-		right: 410px;
-		top: 400px;
+		position: relative;
+		left: 50px;
+		top: 0px;
 		font-size: 30px;
 	}
 	.train-repo {
 		position: relative;
-		bottom: 800px;
-		right: 550px;
+		left: 150px;
+		top: 40px;
 	}
 	.train-image {
 		position: relative;
-		bottom: 800px;
-		right: 550px;
+		top: 500px;
+		right: 295px;
+	}
+
+	#contact-section {
+		position: relative;
+		top: 1200px;
+	}
+
+	.links {
+		position: relative;
+		top: 1400px;
+		left: 30px;
 	}
 }
+
+@media only screen and (min-width: 1024px) {
+	.container {
+		height: auto 0;
+	}
+
+	.nav-button {
+		position: relative;
+		bottom: 170px;
+		left: 645px;
+
+	}
+
+}
+
+@media only screen and (min-width: 1440px) {
+	.container {
+		height: auto 0;
+	}
+
+	body {
+		height: 3000px;
+	}
+
+	.nav-button {
+		position: relative;
+		bottom: 240px;
+		left: 1000px;
+
+	}
+
+	#main-heading {
+		font-size: 70px;
+		position: relative;
+		left: 10px;
+		bottom: 240px;
+		margin: 0;
+	}
+
+	.sidenav .closebtn {
+		position: absolute;
+		top: 15px;
+		right: 35px;
+	}
+
+	.intro {
+		position: relative;
+		top: 50px;
+		left: 550px;
+	}
+
+	.W::before {
+		font-size: 80px;
+		line-height: 50px;
+	}
+
+	.E::before {
+		font-size: 80px;
+		position: relative;
+		top: 246px;
+		left: 50px;
+		line-height: 50px;
+	}
+
+	.L::before {
+		font-size: 80px;
+		position: relative;
+		top: 192px;
+		left: 100px;
+		line-height: 50px;
+	}
+
+	.C::before {
+		font-size: 80px;
+		position: relative;
+		top: 138px;
+		left: 150px;
+		line-height: 50px;
+	}
+
+	.O::before {
+		font-size: 80px;
+		position: absolute;
+		top: 301px;
+		left: 200px;
+		line-height: 50px;
+	}
+
+	.M::before {
+		font-size: 80px;
+		position: absolute;
+		top: 301px;
+		left: 250px;
+		line-height: 50px;
+	}
+
+	.E2::before {
+		font-size: 80px;
+		position: absolute;
+		top: 301px;
+		left: 300px;
+		line-height: 50px;
+	}
+
+	#about-section {
+		width: 900px;
+		position: relative;
+		left: 150px;
+		top: 800px;
+	}
+
+	.subheading2 {
+		position: relative;
+		right: 300px;
+	}
+
+	.change-background2 {
+		height: 1000px;
+	}
+
+	.train-section {
+		position: relative;
+		bottom: 1410px;
+		right: 10px;
+	}
+
+	.train {
+		position: absolute;
+		left: 300px;
+		top: 170px;
+		font-size: 30px;
+		width: 200px;
+	}
+	#traintime {
+		position: absolute;
+		left: 300px;
+		top: 170px;
+		font-size: 30px;
+		width: 200px;
+	}
+	.train-repo {
+		position: absolute;
+		left: 750px;
+		top: 365px;
+	}
+	.train-image {
+		position: relative;
+		left: 600px;
+		bottom: 1410px;
+	}
+
+	#contact-section {
+		position: relative;
+		top: 600px;
+	}
+}	
+	.links {
+		position: relative;
+		top: 700px;
+		left: 30px;
+	}
+
