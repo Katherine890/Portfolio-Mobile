@@ -1714,6 +1714,17 @@ p {
 		height: 1000px;
 	}
 
+	.superhero-section {
+		position: relative;
+		left: 300px;
+		bottom: 620px;
+	}
+
+	.superhero-image {
+		position: relative;
+		top: 118px;
+	}
+
 	.train-section {
 		position: relative;
 		bottom: 1410px;
@@ -1723,20 +1734,20 @@ p {
 	.train {
 		position: absolute;
 		left: 300px;
-		top: 170px;
+		top: 185px;
 		font-size: 30px;
 		width: 200px;
 	}
 	#traintime {
 		position: absolute;
 		left: 300px;
-		top: 170px;
+		top: 185px;
 		font-size: 30px;
 		width: 200px;
 	}
 	.train-repo {
 		position: absolute;
-		left: 750px;
+		left: 780px;
 		top: 365px;
 	}
 	.train-image {
@@ -1748,11 +1759,19 @@ p {
 	#contact-section {
 		position: relative;
 		top: 600px;
+		left: 100px;
+		width: 900px;
 	}
-}	
+
+	input, textarea {
+		width: 900px;
+	}
+	
 	.links {
 		position: relative;
 		top: 700px;
 		left: 30px;
 	}
+
+}
 
